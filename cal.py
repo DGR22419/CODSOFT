@@ -1,11 +1,11 @@
 def calculator():
-    # Prompt the user to enter the first number
-    num1 = float(input("Enter the first number: "))
+    try : 
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
 
-    # Prompt the user to enter the second number
-    num2 = float(input("Enter the second number: "))
-
-    # Prompt the user to choose an operation
+    except :
+        calculator()
+        
     print("Choose the operation:")
     print("1. Addition (+)")
     print("2. Subtraction (-)")
@@ -13,7 +13,6 @@ def calculator():
     print("4. Division (/)")
     operation = input("Enter the number corresponding to the operation: ")
 
-    # Perform the calculation based on the chosen operation
     if operation == '1':
         result = num1 + num2
         operation_sign = "+"
@@ -34,11 +33,9 @@ def calculator():
         result = "Invalid operation"
         operation_sign = ""
 
-    # Display the result
     if operation_sign:
         print(f"The result of {num1} {operation_sign} {num2} is: {result}")
     else:
         print(result)
 
-# Run the calculator
 calculator()
