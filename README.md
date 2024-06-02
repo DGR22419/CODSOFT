@@ -18,3 +18,8 @@ specify the length and complexity of the password .
 ## rock-paper-scissors.py
 
 This Python-based password generator application creates strong and random passwords according to user specifications.
+
+## contact_book.py
+
+This Python application provides an efficient way to manage contact information. Users can add, view, search, update, and delete contacts. Each contact includes a name, phone number, email, and address. The user-friendly command-line interface ensures easy interaction, making it simple to keep track of important contacts.
+
