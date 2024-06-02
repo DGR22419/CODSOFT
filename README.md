@@ -17,3 +17,4 @@ specify the length and complexity of the password .
 
 ## rock-paper-scissors.py
 
+This Python-based password generator application creates strong and random passwords according to user specifications.
