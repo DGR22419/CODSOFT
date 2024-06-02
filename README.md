@@ -8,7 +8,7 @@ Design a simple calculator with basic arithmetic operations.
 Prompt the user to input two numbers and an operation choice.
 Perform the calculation and display the result.
 
-## password_generator.py
+## password.py
 
 A password generator is a useful tool that generates strong and
 random passwords for users. This project aims to create a
