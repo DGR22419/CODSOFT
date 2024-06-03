@@ -50,7 +50,7 @@ def main():
         if play_again != "yes":
             break
 
-    print("Thanks for playing! Final score - You: {user_score}, Computer: {computer_score}")
+    print(f"Thanks for playing! Final score - You: {user_score}, Computer: {computer_score}")
 
 if __name__ == "__main__":
     main()
